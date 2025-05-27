@@ -1,0 +1,427 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+  }
+  
+  /* Basic styling for the navbar */
+  .navbar {
+    background-color:#4CAF50;
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  body{
+    background-color: #f0f0f0;
+  }
+  
+  /* Styling for the logo */
+  .logo {
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  
+  .logo img {
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+    margin-right: 10px;
+  }
+  
+  .logo-text {
+    font-size: 40px;
+    font-weight: :900;
+  }
+  
+  /* Styling for the navigation links */
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    box-shadow: 0px 0px 10px  black;
+    font-size: x-large;
+  }
+  
+  .nav-links li a:hover {
+    color: white; /* Change color on hover */
+    text-decoration:overline;
+    box-shadow: 0px 0px 25px 0px white;
+    margin-right: 10px;
+    font-weight: 800;
+    transition: 1s;
+  }
+  /* sliders*/
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  h1{
+    font-size: 25px;
+    color: black;
+  }
+  
+  /* category */
+  .cate{
+    height: 230px;
+    width: 100%;
+    background-color: ;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px 15px;
+  }
+  .pat
+    {
+      font-size: 45px;
+      font-weight: 600;
+      font-family: monospace;
+      text-align: center;
+      
+    }
+    .pat:hover{
+      margin-bottom: 19px;
+      font-size: 30px;
+      font-weight:900;
+      color: #4CAF50;
+      text-decoration:underline;
+      box-shadow: 0px 0px 50px 20px #4CAF50;
+    }
+    .cate1{
+      margin-top: 50px;
+      border: 5px solid #f2f2f2;
+      height: 150px;
+      width: 200px;
+      padding: 10px 10px 10px;
+      box-sizing: border-box;
+      box-shadow: 0px 5px 5px 0px;
+      background-color: white;
+    }
+    .icon{
+      font-size: 80px;
+      color:#4CAF50;
+      text-align: center;
+      padding: 0px 30px 0px;
+    }
+    .cate1 span{
+      font-size: 20px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-left: 30px;
+    }
+    .cate1:hover{
+      background-color:white;
+      box-sizing: border-box;
+      box-shadow: 10px 10px 10px 0px grey;
+      transition: 0.5s;
+    }
+    /* next div */
+    /* next div */
+    /* next div */
+    .mass{
+      height: 870px;
+      width: 100%;
+      background-color:;
+      border:;
+      display: flex;
+      justify-content:space-evenly;
+      padding: 45px 0px 0px;
+    }
+    .mass1{
+      height: 810px;
+      width: 45%;
+      background-color:;
+      border: ;
+      float: ;
+      
+      
+    }
+    .mass2{
+      height: 810px;
+      width: 45%;
+      border: ;
+      background-color: ;
+      float:;
+    }
+    .sat{
+      font-size: 50px;
+      font-weight: 900;
+    }
+    .sat2{
+      font-size:x-large ;
+    }
+    button{
+      height: 57.7px;
+      width: 180px;
+      background: #4CAF50;
+      border: 2px solid white;
+      align-self: center;
+      color: white;
+      box-sizing: border-box;
+      box-shadow: 0px 0px 10px 0px black ;
+    }
+    button a{
+      text-decoration: none;
+      font-size: 25px;
+      font-weight: 900;
+      color: white;
+    }
+    button:hover{
+      background-color:purple;
+      opacity: 0.8;
+    }
+    .im1{
+     height: auto;
+     width: 100%;
+    }
+    .im1 img{
+     float: right;
+     margin-top:;
+    }
+    .im2{
+      height: auto;
+     width: 100%;
+     
+     
+    }
+    .im2 img{
+      float: right;
+      margin-top: 200px;
+    }
+    .im3{
+      height: auto;
+      width: 100%;
+     }
+     .im3 img{
+      float: right;
+      margin-top: ;
+     }
+     .im4{
+       height: auto;
+      width: 100%;
+      
+     }
+     .im4 img{
+       float: right;
+       margin-top: 200px;
+     }
+    /*  */
+    /*  */
+    .review-card {
+      width: 300px;
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+      margin: 20px;
+      box-shadow: 0px 8px 8px 0px;
+    }
+    .review-card:hover{
+      box-sizing: border-box;
+      box-shadow: 10px 10px 10px 0px black;
+      transition: 0.8s;
+    }
+    
+    .review-header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    .review-body {
+      padding: 20px;
+    }
+    
+    .review-body p {
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+    
+    .review-footer {
+      background-color: #f0f0f0;
+      padding: 10px;
+      text-align: right;
+    }
+    .reviews
+    {
+      font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    margin: 0;
+    }
+    /* footer */
+    /* footer */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 50px 0;
+      text-align: center;
+      font-size: 14px;
+    }
+    
+    .footer-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    
+    .footer-logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #fff;
+      text-decoration: none;
+      margin-bottom: 10px;
+      display: block;
+    }
+    
+    .footer-logo span {
+      color: #4CAF50;
+    }
+    
+    .footer-links {
+      text-align: center;
+    }
+    
+    .footer-links a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      transition: color 0.3s ease;
+    }
+    
+    .footer-links a:hover {
+      color: #4CAF50;
+    }
+    
+    .footer-social {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    
+    .footer-social a {
+      display: inline-block;
+      color: #fff;
+      background-color: #4CAF50;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      border-radius: 50%;
+      margin: 0 10px;
+      transition: background-color 0.3s ease;
+    }
+    
+    .footer-social a:hover {
+      background-color: #45a049;
+    }
+    
